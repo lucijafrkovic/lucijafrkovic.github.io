@@ -1,0 +1,41 @@
+.jumbotron {
+  background-color: #ffffff;
+  /*border-bottom: 1px solid #e5e5e5;*/
+  border-radius: 0px !important;
+}
+
+a.social {
+  width: 20px;
+  height: 20px;
+  display: inline-block;
+  vertical-align: middle;
+  margin-top: -3px;
+  background-size: 20px 20px !important;
+}
+
+a.linkedin {
+  background: url("../img/linkedin_icon.png");
+
+}
+
+a.linkedin:hover {
+  background: url("../img/linkedin_icon_blue.png");
+}
+
+a.facebook {
+  background: url("../img/facebook_icon.png");
+
+}
+
+a.facebook:hover {
+  background: url("../img/facebook_icon_blue.png");
+}
+
+a.instagram {
+  background: url("../img/instagram_icon.png");
+
+}
+
+a.instagram:hover {
+  background: url("../img/instagram_icon_blue.png");
+}
