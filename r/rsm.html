@@ -8,13 +8,26 @@
 
     <title>Lucija Frkovic - CV</title>
 
-    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css" media="all">
     <link rel="stylesheet" href="http://getbootstrap.com/examples/jumbotron-narrow/jumbotron-narrow.css">
 
     <script src="https://code.jquery.com/jquery-2.1.4.min.js"></script>
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/js/bootstrap.min.js"></script>
 
     <link rel="stylesheet" href="/css/style.css">
+
+    <style type="text/css">
+        @media print {
+          .container {
+              max-width: 55.5rem;
+              margin: 0 0 0 5.5rem;
+            }
+
+          a[href]:after {
+              content: none !important;
+          }
+        }
+    </style>
 
   </head>
   <body>
@@ -68,7 +81,7 @@
         </p>
         <h5>Technical highlights</h5>
         <ul>
-          <li>technologies: Swift 2, CocoaPods (xmlrpc, GZIP) using an Objective-C bridging header</li>
+          <li>technologies: Swift 2, CocoaPods (xmlrpc, GZIP)</li>
           <li>OpenSubtitles.org API (XML-RPC based), OpenSubtitles.org file hashing algorithm</li>
         </ul>
 
@@ -79,13 +92,14 @@
         <h4>High School "V. gimnazija", Zagreb, Croatia</h4>
         <h5>2000 - 2004 Mathematics and Natural Sciences</h5>
 
-        <h3>Resources</h3>
-        <ul>
+        <h3 class="hidden-print">Resources</h3>
+        <ul class="hidden-print">
           <li><a href="http://hr.linkedin.com/in/lucijafrkovic" target="_blank">LinkedIn profile</a></li>
           <li><a href="http://stackoverflow.com/users/593808/eagermoose" target="_blank">StackOverflow profile</a></li>
         </ul>
+        <a class="hidden-print" href="#" onclick="window.print();">Print this resume</a>
       </div>
-      <footer class="footer">
+      <footer class="footer hidden-print">
         <span>© Lucija Frkovic <script type="text/javascript"> document.write(new Date().getFullYear());</script>
           <a class="social linkedin" target="_blank" href="http://hr.linkedin.com/in/lucijafrkovic"></a>
           <a class="social facebook" target="_blank" href="https://www.facebook.com/lucija.frkovic"></a>
