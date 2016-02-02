@@ -15,12 +15,20 @@ a.social {
 
 a.linkedin {
   background: url("../img/linkedin_icon.png");
-
 }
 
 a.linkedin:hover {
   background: url("../img/linkedin_icon_blue.png");
 }
+
+a.twitter {
+  background: url("../img/twitter_icon.png");
+}
+
+a.twitter:hover {
+  background: url("../img/twitter_icon_blue.png");
+}
+
 
 a.facebook {
   background: url("../img/facebook_icon.png");
